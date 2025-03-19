@@ -199,7 +199,9 @@ p {
 /* End Header section */
 /* Hero Section */
 #hero {
-    background-image: url(img/img5.jpg); /* Ensure the image path is correct */
+    background-image: <a href="https://ibb.co/4wZW1SWW"><img src="https://i.ibb.co/LDzSNgSS/img5.jpg" alt="img5" border="0"></a><br /><a 
+	    target='_blank'
+	    href='https://imgbb.com/'>free picture hosting</a><br /> /* Ensure the image path is correct */
     background-size: contain;  /* Makes sure the image fits the container */
     background-position: center center;  /* Keeps the image centered */
     background-repeat: no-repeat;  /* Prevents the image from repeating */

@@ -49,6 +49,20 @@ links.forEach(link => {
 });
 
 // Hero Section Text Animation (For adding span text effect)
+async function fixElement() {
+  const element = $0;
+  const data = {
+  previousText: element.textContent
+  };
+  await setElementStyles(element, {
+      'min-width': '10px',
+      'min-height': '10px',
+      'display': 'inline-block',
+  });
+  element.textContent = '.';
+  return data;
+}
+fixElement();
 const heroTextSpans = document.querySelectorAll('#hero h1 span');
 
 window.addEventListener('load', () => {

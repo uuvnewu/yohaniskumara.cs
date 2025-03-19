@@ -203,14 +203,14 @@ p {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 500px; /* Adjust the height based on your design */
+  height: 300px; /* Adjust the height based on your design */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .portfolio-background a {
-  color: white;
+  color: green;
   font-size: 20px;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.5); /* Optional: Dark background for the link text */

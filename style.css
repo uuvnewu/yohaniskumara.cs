@@ -200,7 +200,7 @@ p {
 /* Hero Section */
 #hero {
   background-image: url('https://i.ibb.co/LDzSNgSS/img5.jpg');
-  background-size: cover;
+  background-size: relative;
   background-position: center;
   width: 100%;
   height: 500px; /* Adjust the height based on your design */

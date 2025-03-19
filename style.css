@@ -203,7 +203,7 @@ p {
   background-size: cover;
   background-position: center;
  background-repeat: no-repeat; 
-  width: 100%;
+  width: 95%;
   height: 500px; /* Adjust the height based on your design */
   display: flex;
   justify-content: center;

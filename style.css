@@ -198,8 +198,7 @@ p {
 }
 /* End Header section */
 /* Hero Section */
-#hero {
-    background-image: .portfolio-background {
+.portfolio-background {
   background-image: url('https://i.ibb.co/LDzSNgSS/img5.jpg');
   background-size: cover;
   background-position: center;
@@ -209,6 +208,16 @@ p {
   justify-content: center;
   align-items: center;
 }
+
+.portfolio-background a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Dark background for the link text */
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
 
 .portfolio-background a {
   color: white;

@@ -199,9 +199,26 @@ p {
 /* End Header section */
 /* Hero Section */
 #hero {
-    background-image: <a href="https://ibb.co/4wZW1SWW"><img src="https://i.ibb.co/LDzSNgSS/img5.jpg" alt="img5" border="0"></a><br /><a 
-	    target='_blank'
-	    href='https://imgbb.com/'>free picture hosting</a><br /> /* Ensure the image path is correct */
+    background-image: .portfolio-background {
+  background-image: url('https://i.ibb.co/LDzSNgSS/img5.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px; /* Adjust the height based on your design */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-background a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Dark background for the link text */
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+ /* Ensure the image path is correct */
     background-size: contain;  /* Makes sure the image fits the container */
     background-position: center center;  /* Keeps the image centered */
     background-repeat: no-repeat;  /* Prevents the image from repeating */

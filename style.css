@@ -199,7 +199,7 @@ p {
 /* End Header section */
 /* Hero Section */
 #hero {
-    background-image: url(./img/img5.jpg); /* Ensure the image path is correct */
+    background-image: url(img/img5.jpg); /* Ensure the image path is correct */
     background-size: contain;  /* Makes sure the image fits the container */
     background-position: center center;  /* Keeps the image centered */
     background-repeat: no-repeat;  /* Prevents the image from repeating */
